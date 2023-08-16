@@ -1,0 +1,118 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h4{
+    text-align: center;
+    font-size: large;
+}
+button{
+    margin-left: 650px;
+    padding: 10px;
+    background-image: linear-gradient(to top, #ba0001, #f7b4bb);
+
+    font-weight: 200;
+}
+button:hover{
+    background-image: linear-gradient(to right, #ba0001, #f7b4bb);
+}
+.logo{
+    float: left;
+}
+nav{
+    /* background-image: linear-gradient(to top, #e1edbd, #426d54); */
+    background-color: #426d54;
+    padding: 5px;
+    margin-top: 10px;
+}
+nav:hover{
+    /* background-image: linear-gradient(to top, #426d54, #e1edbd); */
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+h2{
+    color: #fff;
+    margin-top: 5px;
+}
+.aa{
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    float: right;
+    margin-right: 30px;
+    padding-bottom: 5px;
+
+    
+}
+.ab{
+    background-image: linear-gradient(to top, #300d17, #c9bac4); 
+}
+.ab:hover{
+    background-image: linear-gradient(to top, #ad959c, #3a1214);
+}
+.ac{
+    background-image: linear-gradient(to top, #3980c2, #a6bae5);  
+}
+.ac:hover{
+    background-image: linear-gradient(to top, #a6bae5, #3980c2); 
+}
+.ad{
+    background-image: linear-gradient(to top, #db0af7, #ba9dc5);  
+}
+.ad:hover{
+    background-image: linear-gradient(to top, #ba9dc5, #db0af7); 
+}
+.ae{
+    background-color: #6445ee;
+}
+.af{
+    background-color: #c98b8b;
+}
+.search-icon{
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    bottom: 10px;
+    /* left: 100px; */
+    position: relative;
+    transform: rotate(-45deg);
+    border-radius: 100%;
+    /* float: left; */
+
+}
+.search-icon::before{
+    content: '';
+    position: absolute;
+    border: 2px solid black;
+    height: 20px;
+    left: 0;
+    right: 0;
+    width: 0;
+    top: 100%;
+    margin: auto;
+}
+.ag{
+    float: right;
+
+}
+.ah{
+    background-color: #e01952; 
+}
+.aj{
+    background-image: linear-gradient(to top, #666568, #2a282b);   
+}
+.aj:hover{
+    background-image: linear-gradient(to top, #2a282b, #666568); 
+}
+.ak{
+    color: #a6bae5;
+    font-weight: 300;
+    font-size: x-large;
+}
